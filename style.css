@@ -78,3 +78,26 @@ button:hover{
 .cv{
     margin-left: 0.5 em;
 } 
+
+@media only screen and (max-width: 600px) {
+    .about-text{
+        width: 300px;
+        text-align:center;
+        word-wrap: wrap;
+    }
+    .about-text h1{
+        font-size: 40px;
+    }
+    
+    /* .about img{
+        margin-top: 20px;
+    } */
+ .about img{
+       width: 200px ;
+       margin: 0 auto;
+    } 
+    .main{
+        width: 100%;
+    }
+
+  }
